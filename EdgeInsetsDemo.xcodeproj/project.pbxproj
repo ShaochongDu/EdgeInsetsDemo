@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49490F701CC896A6004C2CF2 /* dialogueTopCenter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49490F6F1CC896A6004C2CF2 /* dialogueTopCenter@3x.png */; };
+		49490F771CC89AFA004C2CF2 /* dialogueBottomCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49490F751CC89AFA004C2CF2 /* dialogueBottomCenter@2x.png */; };
+		49490F781CC89AFA004C2CF2 /* dialogueBottomCenter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49490F761CC89AFA004C2CF2 /* dialogueBottomCenter@3x.png */; };
+		49490F7A1CC8A6C0004C2CF2 /* DemoScreenShot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 49490F791CC8A6C0004C2CF2 /* DemoScreenShot.gif */; };
+		49490F7C1CC8A7D6004C2CF2 /* dialogueTopLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49490F7B1CC8A7D6004C2CF2 /* dialogueTopLeft@2x.png */; };
+		5E260DD61C58A20000764374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E260DD51C58A20000764374 /* main.m */; };
+		5E260DD91C58A20000764374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E260DD81C58A20000764374 /* AppDelegate.m */; };
+		5E260DDC1C58A20000764374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E260DDB1C58A20000764374 /* ViewController.m */; };
+		5E260DDF1C58A20000764374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E260DDD1C58A20000764374 /* Main.storyboard */; };
+		5E260DE11C58A20000764374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E260DE01C58A20000764374 /* Assets.xcassets */; };
+		5E260DE41C58A20000764374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E260DE21C58A20000764374 /* LaunchScreen.storyboard */; };
+		5E260DEF1C58A20000764374 /* EdgeInsetsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E260DEE1C58A20000764374 /* EdgeInsetsDemoTests.m */; };
+		5E260DFA1C58A20000764374 /* EdgeInsetsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E260DF91C58A20000764374 /* EdgeInsetsDemoUITests.m */; };
+		5E260E0C1C58A25E00764374 /* dialogueTopCenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E081C58A25E00764374 /* dialogueTopCenter@2x.png */; };
+		5E260E0D1C58A25E00764374 /* dialogueTopLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E091C58A25E00764374 /* dialogueTopLeft@3x.png */; };
+		5E260E0E1C58A25E00764374 /* dialogueTopRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E0A1C58A25E00764374 /* dialogueTopRight@2x.png */; };
+		5E260E0F1C58A25E00764374 /* dialogueTopRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E0B1C58A25E00764374 /* dialogueTopRight@3x.png */; };
+		5E260E181C58AB1700764374 /* dialogueBottomLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E101C58AB1700764374 /* dialogueBottomLeft@2x.png */; };
+		5E260E191C58AB1700764374 /* dialogueBottomLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E111C58AB1700764374 /* dialogueBottomLeft@3x.png */; };
+		5E260E1A1C58AB1700764374 /* dialogueBottomRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E121C58AB1700764374 /* dialogueBottomRight@2x.png */; };
+		5E260E1B1C58AB1700764374 /* dialogueBottomRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E131C58AB1700764374 /* dialogueBottomRight@3x.png */; };
+		5E260E1C1C58AB1700764374 /* dialogueLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E141C58AB1700764374 /* dialogueLeft@2x.png */; };
+		5E260E1D1C58AB1700764374 /* dialogueLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E151C58AB1700764374 /* dialogueLeft@3x.png */; };
+		5E260E1E1C58AB1700764374 /* dialogueRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E161C58AB1700764374 /* dialogueRight@2x.png */; };
+		5E260E1F1C58AB1700764374 /* dialogueRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E260E171C58AB1700764374 /* dialogueRight@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E260DEB1C58A20000764374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E260DC91C58A20000764374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E260DD01C58A20000764374;
+			remoteInfo = EdgeInsetsDemo;
+		};
+		5E260DF61C58A20000764374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E260DC91C58A20000764374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E260DD01C58A20000764374;
+			remoteInfo = EdgeInsetsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49490F6F1CC896A6004C2CF2 /* dialogueTopCenter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopCenter@3x.png"; sourceTree = "<group>"; };
+		49490F751CC89AFA004C2CF2 /* dialogueBottomCenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomCenter@2x.png"; sourceTree = "<group>"; };
+		49490F761CC89AFA004C2CF2 /* dialogueBottomCenter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomCenter@3x.png"; sourceTree = "<group>"; };
+		49490F791CC8A6C0004C2CF2 /* DemoScreenShot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DemoScreenShot.gif; sourceTree = "<group>"; };
+		49490F7B1CC8A7D6004C2CF2 /* dialogueTopLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopLeft@2x.png"; sourceTree = "<group>"; };
+		5E260DD11C58A20000764374 /* EdgeInsetsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeInsetsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E260DD51C58A20000764374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E260DD71C58A20000764374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E260DD81C58A20000764374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E260DDA1C58A20000764374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E260DDB1C58A20000764374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E260DDE1C58A20000764374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E260DE01C58A20000764374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E260DE31C58A20000764374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E260DE51C58A20000764374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E260DEA1C58A20000764374 /* EdgeInsetsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgeInsetsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E260DEE1C58A20000764374 /* EdgeInsetsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdgeInsetsDemoTests.m; sourceTree = "<group>"; };
+		5E260DF01C58A20000764374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E260DF51C58A20000764374 /* EdgeInsetsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgeInsetsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E260DF91C58A20000764374 /* EdgeInsetsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdgeInsetsDemoUITests.m; sourceTree = "<group>"; };
+		5E260DFB1C58A20000764374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E260E081C58A25E00764374 /* dialogueTopCenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopCenter@2x.png"; sourceTree = "<group>"; };
+		5E260E091C58A25E00764374 /* dialogueTopLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopLeft@3x.png"; sourceTree = "<group>"; };
+		5E260E0A1C58A25E00764374 /* dialogueTopRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopRight@2x.png"; sourceTree = "<group>"; };
+		5E260E0B1C58A25E00764374 /* dialogueTopRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueTopRight@3x.png"; sourceTree = "<group>"; };
+		5E260E101C58AB1700764374 /* dialogueBottomLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomLeft@2x.png"; sourceTree = "<group>"; };
+		5E260E111C58AB1700764374 /* dialogueBottomLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomLeft@3x.png"; sourceTree = "<group>"; };
+		5E260E121C58AB1700764374 /* dialogueBottomRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomRight@2x.png"; sourceTree = "<group>"; };
+		5E260E131C58AB1700764374 /* dialogueBottomRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueBottomRight@3x.png"; sourceTree = "<group>"; };
+		5E260E141C58AB1700764374 /* dialogueLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueLeft@2x.png"; sourceTree = "<group>"; };
+		5E260E151C58AB1700764374 /* dialogueLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueLeft@3x.png"; sourceTree = "<group>"; };
+		5E260E161C58AB1700764374 /* dialogueRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueRight@2x.png"; sourceTree = "<group>"; };
+		5E260E171C58AB1700764374 /* dialogueRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogueRight@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E260DCE1C58A20000764374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DE71C58A20000764374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DF21C58A20000764374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E260DC81C58A20000764374 = {
+			isa = PBXGroup;
+			children = (
+				5E260DD31C58A20000764374 /* EdgeInsetsDemo */,
+				5E260DED1C58A20000764374 /* EdgeInsetsDemoTests */,
+				5E260DF81C58A20000764374 /* EdgeInsetsDemoUITests */,
+				5E260DD21C58A20000764374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E260DD21C58A20000764374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E260DD11C58A20000764374 /* EdgeInsetsDemo.app */,
+				5E260DEA1C58A20000764374 /* EdgeInsetsDemoTests.xctest */,
+				5E260DF51C58A20000764374 /* EdgeInsetsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E260DD31C58A20000764374 /* EdgeInsetsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E260E071C58A25E00764374 /* Resource */,
+				5E260DD71C58A20000764374 /* AppDelegate.h */,
+				5E260DD81C58A20000764374 /* AppDelegate.m */,
+				5E260DDA1C58A20000764374 /* ViewController.h */,
+				5E260DDB1C58A20000764374 /* ViewController.m */,
+				5E260DDD1C58A20000764374 /* Main.storyboard */,
+				5E260DE01C58A20000764374 /* Assets.xcassets */,
+				5E260DE21C58A20000764374 /* LaunchScreen.storyboard */,
+				5E260DE51C58A20000764374 /* Info.plist */,
+				5E260DD41C58A20000764374 /* Supporting Files */,
+			);
+			path = EdgeInsetsDemo;
+			sourceTree = "<group>";
+		};
+		5E260DD41C58A20000764374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E260DD51C58A20000764374 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E260DED1C58A20000764374 /* EdgeInsetsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E260DEE1C58A20000764374 /* EdgeInsetsDemoTests.m */,
+				5E260DF01C58A20000764374 /* Info.plist */,
+			);
+			path = EdgeInsetsDemoTests;
+			sourceTree = "<group>";
+		};
+		5E260DF81C58A20000764374 /* EdgeInsetsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E260DF91C58A20000764374 /* EdgeInsetsDemoUITests.m */,
+				5E260DFB1C58A20000764374 /* Info.plist */,
+			);
+			path = EdgeInsetsDemoUITests;
+			sourceTree = "<group>";
+		};
+		5E260E071C58A25E00764374 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				49490F7B1CC8A7D6004C2CF2 /* dialogueTopLeft@2x.png */,
+				49490F791CC8A6C0004C2CF2 /* DemoScreenShot.gif */,
+				49490F751CC89AFA004C2CF2 /* dialogueBottomCenter@2x.png */,
+				49490F761CC89AFA004C2CF2 /* dialogueBottomCenter@3x.png */,
+				5E260E141C58AB1700764374 /* dialogueLeft@2x.png */,
+				5E260E151C58AB1700764374 /* dialogueLeft@3x.png */,
+				5E260E161C58AB1700764374 /* dialogueRight@2x.png */,
+				5E260E171C58AB1700764374 /* dialogueRight@3x.png */,
+				5E260E101C58AB1700764374 /* dialogueBottomLeft@2x.png */,
+				5E260E111C58AB1700764374 /* dialogueBottomLeft@3x.png */,
+				5E260E121C58AB1700764374 /* dialogueBottomRight@2x.png */,
+				5E260E131C58AB1700764374 /* dialogueBottomRight@3x.png */,
+				5E260E081C58A25E00764374 /* dialogueTopCenter@2x.png */,
+				49490F6F1CC896A6004C2CF2 /* dialogueTopCenter@3x.png */,
+				5E260E091C58A25E00764374 /* dialogueTopLeft@3x.png */,
+				5E260E0A1C58A25E00764374 /* dialogueTopRight@2x.png */,
+				5E260E0B1C58A25E00764374 /* dialogueTopRight@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E260DD01C58A20000764374 /* EdgeInsetsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E260DFE1C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemo" */;
+			buildPhases = (
+				5E260DCD1C58A20000764374 /* Sources */,
+				5E260DCE1C58A20000764374 /* Frameworks */,
+				5E260DCF1C58A20000764374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdgeInsetsDemo;
+			productName = EdgeInsetsDemo;
+			productReference = 5E260DD11C58A20000764374 /* EdgeInsetsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E260DE91C58A20000764374 /* EdgeInsetsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E260E011C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemoTests" */;
+			buildPhases = (
+				5E260DE61C58A20000764374 /* Sources */,
+				5E260DE71C58A20000764374 /* Frameworks */,
+				5E260DE81C58A20000764374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E260DEC1C58A20000764374 /* PBXTargetDependency */,
+			);
+			name = EdgeInsetsDemoTests;
+			productName = EdgeInsetsDemoTests;
+			productReference = 5E260DEA1C58A20000764374 /* EdgeInsetsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E260DF41C58A20000764374 /* EdgeInsetsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E260E041C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemoUITests" */;
+			buildPhases = (
+				5E260DF11C58A20000764374 /* Sources */,
+				5E260DF21C58A20000764374 /* Frameworks */,
+				5E260DF31C58A20000764374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E260DF71C58A20000764374 /* PBXTargetDependency */,
+			);
+			name = EdgeInsetsDemoUITests;
+			productName = EdgeInsetsDemoUITests;
+			productReference = 5E260DF51C58A20000764374 /* EdgeInsetsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E260DC91C58A20000764374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shaochong Du";
+				TargetAttributes = {
+					5E260DD01C58A20000764374 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LYMMY2WXUR;
+					};
+					5E260DE91C58A20000764374 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5E260DD01C58A20000764374;
+					};
+					5E260DF41C58A20000764374 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5E260DD01C58A20000764374;
+					};
+				};
+			};
+			buildConfigurationList = 5E260DCC1C58A20000764374 /* Build configuration list for PBXProject "EdgeInsetsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E260DC81C58A20000764374;
+			productRefGroup = 5E260DD21C58A20000764374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E260DD01C58A20000764374 /* EdgeInsetsDemo */,
+				5E260DE91C58A20000764374 /* EdgeInsetsDemoTests */,
+				5E260DF41C58A20000764374 /* EdgeInsetsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E260DCF1C58A20000764374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E260DE41C58A20000764374 /* LaunchScreen.storyboard in Resources */,
+				5E260E181C58AB1700764374 /* dialogueBottomLeft@2x.png in Resources */,
+				49490F771CC89AFA004C2CF2 /* dialogueBottomCenter@2x.png in Resources */,
+				5E260DE11C58A20000764374 /* Assets.xcassets in Resources */,
+				5E260E0F1C58A25E00764374 /* dialogueTopRight@3x.png in Resources */,
+				5E260E191C58AB1700764374 /* dialogueBottomLeft@3x.png in Resources */,
+				5E260DDF1C58A20000764374 /* Main.storyboard in Resources */,
+				5E260E0E1C58A25E00764374 /* dialogueTopRight@2x.png in Resources */,
+				5E260E1D1C58AB1700764374 /* dialogueLeft@3x.png in Resources */,
+				49490F781CC89AFA004C2CF2 /* dialogueBottomCenter@3x.png in Resources */,
+				5E260E0C1C58A25E00764374 /* dialogueTopCenter@2x.png in Resources */,
+				49490F7A1CC8A6C0004C2CF2 /* DemoScreenShot.gif in Resources */,
+				5E260E1F1C58AB1700764374 /* dialogueRight@3x.png in Resources */,
+				5E260E1E1C58AB1700764374 /* dialogueRight@2x.png in Resources */,
+				5E260E0D1C58A25E00764374 /* dialogueTopLeft@3x.png in Resources */,
+				5E260E1C1C58AB1700764374 /* dialogueLeft@2x.png in Resources */,
+				5E260E1A1C58AB1700764374 /* dialogueBottomRight@2x.png in Resources */,
+				49490F701CC896A6004C2CF2 /* dialogueTopCenter@3x.png in Resources */,
+				5E260E1B1C58AB1700764374 /* dialogueBottomRight@3x.png in Resources */,
+				49490F7C1CC8A7D6004C2CF2 /* dialogueTopLeft@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DE81C58A20000764374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DF31C58A20000764374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E260DCD1C58A20000764374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E260DDC1C58A20000764374 /* ViewController.m in Sources */,
+				5E260DD91C58A20000764374 /* AppDelegate.m in Sources */,
+				5E260DD61C58A20000764374 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DE61C58A20000764374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E260DEF1C58A20000764374 /* EdgeInsetsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E260DF11C58A20000764374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E260DFA1C58A20000764374 /* EdgeInsetsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E260DEC1C58A20000764374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E260DD01C58A20000764374 /* EdgeInsetsDemo */;
+			targetProxy = 5E260DEB1C58A20000764374 /* PBXContainerItemProxy */;
+		};
+		5E260DF71C58A20000764374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E260DD01C58A20000764374 /* EdgeInsetsDemo */;
+			targetProxy = 5E260DF61C58A20000764374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E260DDD1C58A20000764374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E260DDE1C58A20000764374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E260DE21C58A20000764374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E260DE31C58A20000764374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E260DFC1C58A20000764374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E260DFD1C58A20000764374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E260DFF1C58A20000764374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EdgeInsetsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E260E001C58A20000764374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EdgeInsetsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E260E021C58A20000764374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdgeInsetsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgeInsetsDemo.app/EdgeInsetsDemo";
+			};
+			name = Debug;
+		};
+		5E260E031C58A20000764374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdgeInsetsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgeInsetsDemo.app/EdgeInsetsDemo";
+			};
+			name = Release;
+		};
+		5E260E051C58A20000764374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EdgeInsetsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EdgeInsetsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5E260E061C58A20000764374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EdgeInsetsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.EdgeInsetsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EdgeInsetsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E260DCC1C58A20000764374 /* Build configuration list for PBXProject "EdgeInsetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E260DFC1C58A20000764374 /* Debug */,
+				5E260DFD1C58A20000764374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E260DFE1C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E260DFF1C58A20000764374 /* Debug */,
+				5E260E001C58A20000764374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E260E011C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E260E021C58A20000764374 /* Debug */,
+				5E260E031C58A20000764374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E260E041C58A20000764374 /* Build configuration list for PBXNativeTarget "EdgeInsetsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E260E051C58A20000764374 /* Debug */,
+				5E260E061C58A20000764374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E260DC91C58A20000764374 /* Project object */;
+}

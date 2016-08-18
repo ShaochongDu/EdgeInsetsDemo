@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0201A57FDB7087833284ECB8129E669D7B45BA49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4E04A6EE5583DA50CF5DC1BE5E62795CC58894FB" : 0,
+    "0201A57FDB7087833284ECB8129E669D7B45BA49" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97CDCCD1-EA85-459B-BAD1-F5C31A02579F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4E04A6EE5583DA50CF5DC1BE5E62795CC58894FB" : "EdgeInsetsDemo\/EdgeInsetsDemo\/",
+    "0201A57FDB7087833284ECB8129E669D7B45BA49" : "EdgeInsetsDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EdgeInsetsDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EdgeInsetsDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/loverjiao0321\/EdgeInsetsDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0201A57FDB7087833284ECB8129E669D7B45BA49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/loverjiao0321\/EdgeInsetsDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E04A6EE5583DA50CF5DC1BE5E62795CC58894FB"
+    }
+  ]
+}
